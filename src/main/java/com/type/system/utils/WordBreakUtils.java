@@ -3,7 +3,6 @@ package com.type.system.utils;
 import com.type.system.factory.DictinoryFactory;
 import com.type.system.dto.Dictionary;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
