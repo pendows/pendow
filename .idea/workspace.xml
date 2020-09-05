@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="543690f1-58dd-4ce2-97b1-f8dd13bd526e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/type/system/constant/BreakWorldConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/type/system/dto/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/type/system/enums/ResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/type/system/factory/DictinoryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/type/system/factory/WordBreakFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/type/system/itf/WordBreakService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/type/system/service/WordBreakServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/type/system/utils/ArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/type/system/utils/WordBreakUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JunitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WordBreak-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/type/system/constant/BreakWorldConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/type/system/dto/Dictionary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/type/system/enums/ResultEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/type/system/factory/DictinoryFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/type/system/factory/WordBreakFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/type/system/itf/WordBreakService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/type/system/service/WordBreakServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/type/system/utils/ArrayUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/type/system/utils/WordBreakUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/JunitTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordBreak.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\IdeaProjects\WordBreak\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1h2S0tP8kGB9UDMzzwJW9iIGt7C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mini-test-master/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.type.system.enums" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.JunitTest">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordBreak" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordBreak" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordBreak" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordBreak" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitTest" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitTest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordBreak" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitTest" />
+      <option name="METHOD_NAME" value="test7" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JunitTest" />
+        <item itemvalue="JUnit.JunitTest.test1" />
+        <item itemvalue="JUnit.JunitTest.test2" />
+        <item itemvalue="JUnit.JunitTest.test7" />
+        <item itemvalue="JUnit.JunitTest.test6" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="543690f1-58dd-4ce2-97b1-f8dd13bd526e" name="Default Changelist" comment="" />
+      <created>1599207473969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599207473969</updated>
+      <workItem from="1599207475530" duration="6720000" />
+      <workItem from="1599221156967" duration="9361000" />
+      <workItem from="1599233095324" duration="6370000" />
+      <workItem from="1599269632075" duration="766000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="184" key="#Project_Structure" timestamp="1599208690502">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="184" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1599208690502" />
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599224650446">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1599224650446" />
+    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1599235466776">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1599235466776" />
+    <state x="739" y="384" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599220791090">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="739" y="384" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050@0.0.1920.1050" timestamp="1599220791090" />
+    <state x="529" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599229524162">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="529" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1599229524162" />
+    <state x="715" y="227" key="#xdebugger.evaluate" timestamp="1599236034869">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="715" y="227" key="#xdebugger.evaluate/0.0.1920.1050@0.0.1920.1050" timestamp="1599236034869" />
+    <state width="447" height="466" key="DebuggerActiveHint" timestamp="1599239785054">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="447" height="466" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1599239785054" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1599223625591">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1599223625591" />
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1599269774311">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1599269774311" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1599269774310">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1599269774310" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1599269774310">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1599269774310" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1599269774310">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1599269774310" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1599269774311">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1599269774311" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1599269774311">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1599269774311" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1599269774311">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1599269774311" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1599269774311">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1599269774311" />
+    <state x="490" y="180" key="Maven.ArtifactSearchDialog" timestamp="1599220862975">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="490" y="180" key="Maven.ArtifactSearchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1599220862975" />
+    <state x="461" y="167" key="SettingsEditor" timestamp="1599270295518">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1599270295518" />
+    <state x="420" y="273" key="caller.chooser.dialog" timestamp="1599230031584">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="420" y="273" key="caller.chooser.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1599230031584" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599229492265">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1599229492265" />
+    <state x="744" y="316" key="git4idea.merge.GitPullDialog" timestamp="1599270349367">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="744" y="316" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1599270349367" />
+    <state width="300" height="165" key="javadoc.popup.new" timestamp="1599223822169">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="300" height="165" key="javadoc.popup.new/0.0.1920.1050@0.0.1920.1050" timestamp="1599223822169" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/type/system/service/WordBreakServiceImpl.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/type/system/factory/DictinoryFactory.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/type/system/utils/WordBreakUtils.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
