@@ -11,7 +11,7 @@ package com.type.system.enums;
 public enum ResultEnum {
 
     /**
-     * 存货异常代码，及异常描述
+     * 异常代码，及异常描述
      */
     SUCCESS("0000", "SUCCESS"),
     DIC_NOT_NULL("0001", "输入的词典为空,请重新输入..."),
