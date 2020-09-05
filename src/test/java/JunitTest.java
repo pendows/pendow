@@ -7,24 +7,47 @@ import com.type.system.utils.ArrayUtils;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.Arrays;
-
 
 public class JunitTest {
     private WordBreakService wordBreakService;
 
     @Before
     public void before() {
+        //通过业务接口，获取具体对象
         wordBreakService = WordBreakFactory.getWordBreakService();
     }
 
+    /**
+     * 题目：
+     * Given a valid sentence without any spaces between the words and a dictionary of valid English words,
+     * find all possible ways to break the sentence in individual dictionary words.
+     * Example:
+     * Consider the following dictionary
+     * { i, like, sam, sung, samsung, mobile, ice, cream, man go}
+     * Input: "ilikesamsungmobile"
+     * Output: i like sam sung mobile
+     *         i like samsung mobile
+     * Input: "ilikeicecreamandmango"
+     * Output: i like ice cream and man go
+     * @throws Exception
+     */
     @Test
     public void test1() throws Exception {
         String word = "ilikeicecreamandmango";
+        //开始通过默认类型获取字典
         DictinoryFactory.productDictionry(null, BreakWorldConstants.DEFUAL);
         wordBreakService.wordBreakService(word);
     }
 
+    /**
+     * 题目2：
+     * #Stage 2 - new requirement to be implemented:
+     * If user provide a customized dictionary of valid English words as additional input,
+     * and the program will only find in the user customized dictionary
+     * E.g.: the user customized dictionary
+     * { i, like, sam, sung, mobile, icecream, man go, mango}
+     * @throws Exception
+     */
     @Test
     public void test2() throws Exception {
        String[] dict = new String[]{"i", "like", "sam", "sung", "samsung", "mobile", "ice", "cream", "man go"};
@@ -34,6 +57,15 @@ public class JunitTest {
         wordBreakService.wordBreakService(word);
     }
 
+    /**
+     * 题目3：
+     * #Stage 3 - new requirement to be implemented:
+     * If user provide a customized dictionary of valid English words as additional input,
+     * and the program will find all the valid words in the both dictionaries
+     * E.g.: the user customized dictionary
+     * { i, like, sam, sung, mobile, icecream, man go, mango}
+     * @throws Exception
+     */
     @Test
     public void test3() throws Exception {
         String[] dict = new String[]{"i", "like", "sam", "sung", "samsung", "mobile", "ice", "cream", "man go"};
