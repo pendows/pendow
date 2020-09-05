@@ -7,6 +7,8 @@ import com.type.system.utils.ArrayUtils;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.List;
+
 import static org.junit.Assert.assertEquals;
 
 
@@ -38,7 +40,8 @@ public class JunitTest {
         String word = "ilikeicecreamandmango";
         //开始通过默认类型获取字典
         DictinoryFactory.productDictionry(null, BreakWorldConstants.DEFUAL);
-        wordBreakService.wordBreakService(word);
+        String expected = "[i, like, ice, cream, and, mango]";
+        assertEquals(expected,wordBreakService.wordBreakService(word).replaceFirst(",",""));
     }
 
     /**
@@ -52,11 +55,12 @@ public class JunitTest {
      */
     @Test
     public void test2() throws Exception {
-       String[] dict = new String[]{"i", "like", "sam", "sung", "samsung", "mobile", "ice", "cream", "man go"};
+        String[] dict = new String[]{"i", "like", "sam", "sung", "samsung", "mobile", "ice", "cream", "man go"};
+        String expected = "[i, like, sam, sung, mobile],[i, like, samsung, mobile]";
         String word = "ilikesamsungmobile";
         check(dict,word);
         DictinoryFactory.productDictionry(ArrayUtils.arrayToList(dict), BreakWorldConstants.TWO_DICT);
-        wordBreakService.wordBreakService(word);
+        assertEquals(expected,wordBreakService.wordBreakService(word).replaceFirst(",",""));
     }
 
     /**
@@ -71,10 +75,15 @@ public class JunitTest {
     @Test
     public void test3() throws Exception {
         String[] dict = new String[]{"i", "like", "sam", "sung", "samsung", "mobile", "ice", "cream", "man go"};
+        String expected = "[i, like, sam, sung, mobile],[i, like, samsung, mobile]";
         String word = "ilikesamsungmobile";
         check(dict,word);
         DictinoryFactory.productDictionry(ArrayUtils.arrayToList(dict), BreakWorldConstants.THREE_DICT);
-        wordBreakService.wordBreakService(word);
+        assertEquals(expected,wordBreakService.wordBreakService(word).replaceFirst(",",""));
+        word = "ilikeicecreamandmango";
+        expected = "[i, like, ice, cream, and, mango]";
+        assertEquals(expected,wordBreakService.wordBreakService(word).replaceFirst(",",""));
+
     }
 
     @Test

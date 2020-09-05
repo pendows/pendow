@@ -2,6 +2,8 @@ package com.type.system.utils;
 
 import com.type.system.factory.DictinoryFactory;
 import com.type.system.dto.Dictionary;
+
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -15,11 +17,13 @@ import java.util.List;
  * @date 2019-04-24
  */
 public class WordBreakUtils {
-    public static void wordBreak(String word, List<String> contents) throws Exception {
+    public volatile static String contentStr = "";
+    public static String wordBreak(String word, List<String> contents) throws Exception {
         int len = word.length();
         if(len == 0){
             System.out.println(contents);
-            return;
+            contentStr += "," + contents.toString();
+            return contentStr;
         }
         Dictionary dictionary = DictinoryFactory.getDictionary();
         for(int i=1; i<=len; i++){
@@ -30,6 +34,7 @@ public class WordBreakUtils {
                 contents.remove(contents.size()-1);
             }
         }
+        return contentStr;
     }
 
 }

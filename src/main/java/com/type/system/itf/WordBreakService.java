@@ -1,5 +1,7 @@
 package com.type.system.itf;
 
+import java.util.List;
+
 /**
  * 断句业务对象接口
  *
@@ -14,5 +16,5 @@ public interface WordBreakService {
      * @param word
      * @throws Exception
      */
-    void wordBreakService(String word) throws Exception;
+    String wordBreakService(String word) throws Exception;
 }

@@ -4,6 +4,7 @@ import com.type.system.itf.WordBreakService;
 import com.type.system.utils.WordBreakUtils;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 断句业务类
@@ -13,12 +14,16 @@ import java.util.ArrayList;
  */
 public class WordBreakServiceImpl implements WordBreakService {
     @Override
-    public void wordBreakService(String word) throws Exception {
+    public String wordBreakService(String word) throws Exception {
         //开始处理断句
-         doWordBreak(word);
+        init();
+        return doWordBreak(word);
     }
 
-    private void doWordBreak(String word) throws Exception {
-       WordBreakUtils.wordBreak(word,new ArrayList<>());
+    private String doWordBreak(String word) throws Exception {
+       return WordBreakUtils.wordBreak(word,new ArrayList<>());
+    }
+    private void init() {
+        WordBreakUtils.contentStr = "";
     }
 }
