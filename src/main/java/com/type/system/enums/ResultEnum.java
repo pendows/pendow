@@ -2,7 +2,7 @@ package com.type.system.enums;
 
 
 /**
- * 存货异常定义枚举
+ * 异常定义枚举
  *
  * @author pengweidong@ycs168.cn
  * @version 1.00.00
