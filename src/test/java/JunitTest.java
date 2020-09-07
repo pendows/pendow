@@ -35,7 +35,6 @@ public class JunitTest {
      */
     @Test
     public void test1() throws Exception {
-
         String expected = "[i, like, sam, sung, mobile],[i, like, samsung, mobile]";
         String word = "ilikesamsungmobile";
         DictinoryFactory.productDictionry(null, BreakWorldConstants.DEFUAL);
