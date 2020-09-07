@@ -35,10 +35,13 @@ public class JunitTest {
      */
     @Test
     public void test1() throws Exception {
-        String word = "ilikeicecreamandmango";
-        //开始通过默认类型获取字典
+
+        String expected = "[i, like, sam, sung, mobile],[i, like, samsung, mobile]";
+        String word = "ilikesamsungmobile";
         DictinoryFactory.productDictionry(null, BreakWorldConstants.DEFUAL);
-        String expected = "[i, like, ice, cream, and, mango]";
+        assertEquals(expected,wordBreakService.wordBreakService(word).replaceFirst(",",""));
+        word = "ilikeicecreamandmango";
+        expected = "[i, like, ice, cream, and, mango]";
         assertEquals(expected,wordBreakService.wordBreakService(word).replaceFirst(",",""));
     }
 
@@ -72,14 +75,11 @@ public class JunitTest {
      */
     @Test
     public void test3() throws Exception {
+        String word = "ilikeicecreamandmango";
         String[] dict = new String[]{"i", "like", "sam", "sung", "samsung", "mobile", "ice", "cream", "man go"};
-        String expected = "[i, like, sam, sung, mobile],[i, like, samsung, mobile]";
-        String word = "ilikesamsungmobile";
-        check(dict,word);
+        //开始通过默认类型获取字典
         DictinoryFactory.productDictionry(ArrayUtils.arrayToList(dict), BreakWorldConstants.THREE_DICT);
-        assertEquals(expected,wordBreakService.wordBreakService(word).replaceFirst(",",""));
-        word = "ilikeicecreamandmango";
-        expected = "[i, like, ice, cream, and, mango]";
+        String expected = "[i, like, ice, cream, and, mango]";
         assertEquals(expected,wordBreakService.wordBreakService(word).replaceFirst(",",""));
 
     }
