@@ -23,6 +23,7 @@ public class WordBreakServiceImpl implements WordBreakService {
     private String doWordBreak(String word) throws Exception {
        return WordBreakUtils.wordBreak(word,new ArrayList<>());
     }
+
     private void init() {
         WordBreakUtils.contentStr = "";
     }
